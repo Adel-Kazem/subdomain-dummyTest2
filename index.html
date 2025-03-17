@@ -1,1 +1,704 @@
-<!DOCTYPE html><html><head><title>dummyTest2.revunova.net</title></head><body><h1>Welcome to dummyTest2.revunova.net</h1><p>Site created with Laravel GitHub Pages Automation</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broasted - Delicious Pressure Fried Chicken</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#e53e3e',
+                        secondary: '#faf089',
+                        dark: '#2d3748',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+<!-- Navbar -->
+<nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20">
+            <div class="flex items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-primary font-bold text-3xl">Broasted</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#" class="text-dark hover:text-primary font-medium">Home</a>
+                <a href="#menu" class="text-dark hover:text-primary font-medium">Menu</a>
+                <a href="#deals" class="text-dark hover:text-primary font-medium">Deals</a>
+                <a href="#about" class="text-dark hover:text-primary font-medium">About</a>
+                <a href="#contact" class="text-dark hover:text-primary font-medium">Contact</a>
+            </div>
+            <div class="flex items-center">
+                <button class="bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                    Order Now
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="relative bg-dark overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="relative z-10 pb-8 bg-dark sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                <div class="sm:text-center lg:text-left">
+                    <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                        <span class="block xl:inline">Crispy Outside,</span>
+                        <span class="block text-secondary xl:inline"> Juicy Inside.</span>
+                    </h1>
+                    <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                        Experience the perfect pressure-fried chicken with our special recipe. Crispy, delicious, and less greasy than traditional fried chicken.
+                    </p>
+                    <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                            <a href="#menu" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-dark bg-secondary hover:bg-yellow-300 md:py-4 md:text-lg md:px-10 transition duration-300">
+                                View Menu
+                            </a>
+                        </div>
+                        <div class="mt-3 sm:mt-0 sm:ml-3">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-primary hover:bg-red-700 md:py-4 md:text-lg md:px-10 transition duration-300">
+                                Order Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Broasted Chicken">
+    </div>
+</div>
+
+<!-- Special Offers -->
+<div class="bg-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Special Offers</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Deals of the Day
+            </p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Family Bucket">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Family Bucket</div>
+                    <p class="text-gray-700 text-base">
+                        9 pieces of broasted chicken, 4 servings of fries, coleslaw, and 2L cola.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-6">
+                    <span class="text-primary font-bold text-xl">$24.99</span>
+                    <button class="float-right bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition duration-300">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1585039261108-7e15bc291053?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Zinger Meal">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Zinger Meal</div>
+                    <p class="text-gray-700 text-base">
+                        Spicy zinger sandwich with fries and a medium drink of your choice.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-6">
+                    <span class="text-primary font-bold text-xl">$8.99</span>
+                    <button class="float-right bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition duration-300">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
+                <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="2-Piece Combo">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">2-Piece Combo</div>
+                    <p class="text-gray-700 text-base">
+                        2 pieces of broasted chicken with fries, coleslaw, and a drink.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-6">
+                    <span class="text-primary font-bold text-xl">$6.99</span>
+                    <button class="float-right bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition duration-300">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Menu Section -->
+<div id="menu" class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-base text-primary font-semibold tracking-wide uppercase">What We Offer</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Our Menu
+            </p>
+        </div>
+
+        <div class="mt-12">
+            <!-- Menu Categories -->
+            <div class="flex flex-wrap justify-center space-x-4 mb-12">
+                <button class="px-6 py-2 rounded-full bg-primary text-white font-medium mb-4">All Items</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 text-gray-700 font-medium mb-4 hover:bg-gray-300 transition duration-300">Chicken</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 text-gray-700 font-medium mb-4 hover:bg-gray-300 transition duration-300">Sandwiches</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 text-gray-700 font-medium mb-4 hover:bg-gray-300 transition duration-300">Sides</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 text-gray-700 font-medium mb-4 hover:bg-gray-300 transition duration-300">Beverages</button>
+            </div>
+
+            <!-- Menu Items Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Broasted Chicken">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">Original Broasted Chicken</h3>
+                            <span class="text-primary font-bold">$12.99</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Our signature pressure-fried chicken with a special blend of herbs and spices. Served with fries and coleslaw.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1585039261108-7e15bc291053?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Zinger Sandwich">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">Zinger Sandwich</h3>
+                            <span class="text-primary font-bold">$6.99</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Spicy broasted chicken fillet with lettuce, cheese, and our special sauce in a soft bun.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1600807497639-3b5d8e74a232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="French Fries">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">French Fries</h3>
+                            <span class="text-primary font-bold">$2.99</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Crispy golden fries seasoned with our special salt blend.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1580998698682-fa97ade4b66e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Mayonnaise Salad">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">Mayonnaise Salad</h3>
+                            <span class="text-primary font-bold">$3.49</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Creamy potato salad with vegetables and our special creamy mayonnaise dressing.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Coleslaw">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">Coleslaw</h3>
+                            <span class="text-primary font-bold">$2.49</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Fresh cabbage and carrots in a creamy, slightly sweet dressing. The perfect side for your broasted chicken.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md flex flex-col">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Cola">
+                    <div class="px-6 py-4 flex-grow">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-xl">Cola</h3>
+                            <span class="text-primary font-bold">$1.99</span>
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            Refreshing cola available in regular or diet options. Available in small, medium, and large sizes.
+                        </p>
+                    </div>
+                    <div class="px-6 pb-4">
+                        <button class="w-full bg-primary text-white py-2 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <button class="bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                    View Full Menu
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about" class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+            <div>
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">About Us</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    The Broasted Story
+                </p>
+                <div class="mt-8 text-lg text-gray-500 space-y-4">
+                    <p>
+                        At Broasted, we specialize in pressure-fried chicken that's crispy on the outside and juicy on the inside. Our secret blend of herbs and spices creates a unique flavor profile that keeps our customers coming back for more.
+                    </p>
+                    <p>
+                        Founded in 2010, our mission has always been to serve the highest quality broasted chicken while providing exceptional customer service. We use only premium, fresh ingredients and prepare everything daily to ensure maximum flavor and freshness.
+                    </p>
+                    <p>
+                        Our commitment to quality extends beyond our food. We strive to create a welcoming atmosphere where families and friends can gather to enjoy a delicious meal together.
+                    </p>
+                </div>
+                <div class="mt-8">
+                    <button class="bg-primary text-white px-6 py-3 rounded-full font-medium hover:bg-red-700 transition duration-300">
+                        Learn More About Us
+                    </button>
+                </div>
+            </div>
+            <div class="mt-10 lg:mt-0">
+                <img class="rounded-xl shadow-xl" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Restaurant interior">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials -->
+<div class="bg-gray-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Testimonials</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                What Our Customers Say
+            </p>
+        </div>
+        <div class="mt-12 grid gap-8 md:grid-cols-3">
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full overflow-hidden bg-gray-200">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold text-lg">Ahmed S.</h4>
+                        <div class="flex text-yellow-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "The best broasted chicken I've ever had! Crispy on the outside, juicy on the inside. Their special spice blend is incredible, and the service is always friendly and quick."
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full overflow-hidden bg-gray-200">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold text-lg">Sarah M.</h4>
+                        <div class="flex text-yellow-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "My family loves their Family Bucket deal! The chicken is always fresh and delicious. The coleslaw is also amazing - not too sweet and perfectly creamy. We order at least once a week!"
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full overflow-hidden bg-gray-200">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Customer">
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold text-lg">Mohammed K.</h4>
+                        <div class="flex text-yellow-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">
+                    "Their Zinger sandwich is out of this world! Perfect spice level and so much better than other fast food places. The fries are always crispy and well-seasoned too. Highly recommend!"
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact & Location -->
+<div id="contact" class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Contact Us</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Get In Touch
+            </p>
+        </div>
+        <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
+            <!-- Contact Form -->
+            <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h3>
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                        <input type="text" name="name" id="name" class="mt-1 block w-full py-3 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" name="email" id="email" class="mt-1 block w-full py-3 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" class="mt-1 block w-full py-3 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full py-3 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-primary py-3 px-6 border border-transparent rounded-full text-white font-medium hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-300">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Location & Contact Info -->
+            <div>
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md mb-8">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Our Location</h3>
+                    <div class="aspect-w-16 aspect-h-9 mb-6">
+                        <!-- Replace with an actual map or iframe -->
+                        <div class="w-full h-64 bg-gray-300 rounded-lg flex items-center justify-center">
+                            <span class="text-gray-600">Map Goes Here</span>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <div class="ml-3">
+                                <p class="text-gray-900 font-medium">Address</p>
+                                <p class="text-gray-600">123 Chicken Street, Foodville, Dubai, UAE</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <div class="ml-3">
+                                <p class="text-gray-900 font-medium">Phone</p>
+                                <p class="text-gray-600">+971 4 123 4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <div class="ml-3">
+                                <p class="text-gray-900 font-medium">Email</p>
+                                <p class="text-gray-600">info@broasted.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <div class="ml-3">
+                                <p class="text-gray-900 font-medium">Hours</p>
+                                <p class="text-gray-600">Mon-Thu: 11AM - 10PM<br>Fri-Sun: 11AM - 11PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Follow Us</h3>
+                    <div class="flex space-x-5">
+                        <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+
+                        <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                            <span class="sr-only">YouTube</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- App Download Section -->
+<div class="bg-primary py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+            <div>
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                    Download Our Mobile App
+                </h2>
+                <p class="mt-3 text-lg text-red-100">
+                    Get exclusive app-only deals and order your favorite broasted chicken with just a few taps. Available for iOS and Android.
+                </p>
+                <div class="mt-8 flex space-x-4">
+                    <a href="#" class="bg-black rounded-lg overflow-hidden flex items-center px-5 py-3 hover:bg-gray-800 transition duration-300">
+                        <svg class="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor">
+                            <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                        </svg>
+                        <div class="ml-4">
+                            <p class="text-xs text-gray-200">Download on the</p>
+                            <p class="text-base font-medium text-white">App Store</p>
+                        </div>
+                    </a>
+                    <a href="#" class="bg-black rounded-lg overflow-hidden flex items-center px-5 py-3 hover:bg-gray-800 transition duration-300">
+                        <svg class="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                            <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
+                        </svg>
+                        <div class="ml-4">
+                            <p class="text-xs text-gray-200">Get it on</p>
+                            <p class="text-base font-medium text-white">Google Play</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-10 lg:mt-0 flex justify-center">
+                <img class="h-96 w-auto" src="https://www.nicepng.com/png/full/385-3850113_food-delivery-app-mobile-mockup-mockup-iphone-food.png" alt="Mobile App">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div>
+                <div class="text-primary font-bold text-3xl mb-4">Broasted</div>
+                <p class="text-gray-300 text-sm">
+                    Serving the best broasted chicken since 2010. Our pressure-fried chicken is crispy outside and juicy inside.
+                </p>
+                <div class="mt-4 flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <span class="sr-only">Facebook</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <span class="sr-only">Instagram</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="#menu" class="text-gray-300 hover:text-white transition duration-300">Menu</a></li>
+                    <li><a href="#deals" class="text-gray-300 hover:text-white transition duration-300">Deals</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-white transition duration-300">About</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Help & Info</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">FAQ</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Terms & Conditions</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Privacy Policy</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Delivery Information</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Subscribe</h3>
+                <p class="text-gray-300 text-sm mb-4">Subscribe to our newsletter to receive updates and exclusive offers.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l-md focus:outline-none focus:ring-2 focus:ring-primary">
+                    <button type="submit" class="bg-primary px-4 py-2 rounded-r-md hover:bg-red-700 transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-gray-400 text-sm">
+                © 2025 Broasted. All rights reserved.
+            </div>
+            <div class="mt-4 md:mt-0">
+                <img src="https://www.nicepng.com/png/detail/87-870350_credit-card-payment-icons-png-transparent-background-credit.png" alt="Payment Methods" class="h-8">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Order Floating Button -->
+<div class="fixed bottom-6 right-6 z-50">
+    <button class="bg-primary text-white rounded-full h-16 w-16 flex items-center justify-center shadow-lg hover:bg-red-700 transition duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+    </button>
+</div>
+
+<script>
+    // Basic JavaScript functionality could be added here
+    // For example, mobile menu toggle, cart functionality, etc.
+
+    // This is just a placeholder. In a real application, you would have more complex JS
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('Broasted website loaded!');
+
+        // Example: Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>
